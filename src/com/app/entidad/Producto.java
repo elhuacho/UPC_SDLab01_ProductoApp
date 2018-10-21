@@ -1,4 +1,4 @@
-package app.com.entidades;
+package com.app.entidad;
 
 public class Producto {
     private Long codigo;
