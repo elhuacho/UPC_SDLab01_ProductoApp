@@ -1,15 +1,15 @@
 package com.app.entidad;
 
 public class Producto {
-    private Long codigo;
+    private long codigo;
     private String descripcion;
-    private Double precio;
+    private double precio;
 
-    public Long getCodigo() {
+    public long getCodigo() {
         return codigo;
     }
 
-    public void setCodigo(Long codigo) {
+    public void setCodigo(long codigo) {
         this.codigo = codigo;
     }
 
@@ -21,11 +21,11 @@ public class Producto {
         this.descripcion = descripcion;
     }
 
-    public Double getPrecio() {
+    public double getPrecio() {
         return precio;
     }
 
-    public void setPrecio(Double precio) {
+    public void setPrecio(double precio) {
         this.precio = precio;
     }
 }
